@@ -1,0 +1,24 @@
+
+	<div *ngFor="let product of products" class="row">
+		<div class="panel panel-primary col-md-9" (click)="showDetail(product)" >
+				<div class="panel-heading">
+				<h2 class="panel-title">{{product.productId | uppercase}} </h2>
+				</div>
+				<div class="panel-body row">
+					<div class="col-md-6 col-sm-6">
+
+					<p *ngIf="product.description.length+product.name.length+product.price.toString().length<=44"> {{product.name | uppercase}} - {{product.description}} - {{product.price}} </p>
+          <p *ngIf="product.description.length+product.name.length+product.price.toString().length>44"> {{briefDescription(product)}}</p>
+
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<img class="img-responsive" [src]="product.image" [title] = "product.name">
+					</div>
+				</div>
+		</div>
+	</div>
+
+
+
+
+

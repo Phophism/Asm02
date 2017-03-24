@@ -1,0 +1,34 @@
+{
+	"data":[
+		{
+			"id": 1,
+			"productId":"SP-001",
+			"name":"Koa",
+			"description":"Are you Koa?",
+			"price":100,
+			"image":"http://ec2-54-254-254-167.ap-southeast-1.compute.amazonaws.com/331-lab03/pics/tu.jpg",
+			"amountLeft": 0,
+			"rating": 0
+		},
+		{
+			"id": 2,
+			"productId":"SP-002",
+			"name":"Krapong",
+			"description":"Are you Krapong?",
+			"price":50,
+			"image":"http://ec2-54-254-254-167.ap-southeast-1.compute.amazonaws.com/331-lab03/pics/tu.jpg",
+			"amountLeft": 0,
+			"rating": 0
+		},
+    {
+      "id": 3,
+      "productId": "SP-003",
+      "name": "Krap",
+      "description": "Are you Krap?",
+      "price": 50,
+      "image": "http://ec2-54-254-254-167.ap-southeast-1.compute.amazonaws.com/331-lab03/pics/tu.jpg",
+      "amountLeft": 0,
+      "rating": 0
+    }
+	]
+}
